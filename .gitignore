@@ -1,0 +1,6 @@
+.venv/
+output-tests/
+venv/
+
+*.pyc
+
