@@ -132,7 +132,7 @@ class Galaxy:
                 shapes.append('^')  # Triangle
         return shapes
 
-    def animate_galaxy(self, save_to_file=None):
+    def animate_galaxy(self, save_to_file=None, frames=30, interval=100):
         fig = plt.figure(figsize=(12, 8), facecolor='black')
         ax = fig.add_subplot(111)
         ax.set_facecolor('black')
@@ -160,10 +160,38 @@ class Galaxy:
             plt.title("Space Farce Galaxy Map", color='white')
             return ax
 
-        ani = animation.FuncAnimation(fig, update, frames=60, interval=50)
+        ani = animation.FuncAnimation(fig, update, frames=frames, interval=interval)
         
         if save_to_file:
             ani.save(save_to_file, writer='pillow')
+        else:
+            plt.show()
+
+    def visualize_galaxy(self, save_to_file=None):
+        fig = plt.figure(figsize=(12, 8), facecolor='black')
+        ax = fig.add_subplot(111)
+        ax.set_facecolor('black')
+        
+        pos = nx.spring_layout(self.graph)
+        colors = self.get_node_colors()
+        shapes = self.get_node_shapes()
+        
+        # Draw edges (warp points)
+        nx.draw_networkx_edges(self.graph, pos, edge_color='gray', alpha=0.3)
+        
+        # Draw nodes (systems)
+        for shape in set(shapes):
+            node_list = [node for node in self.graph.nodes() if shapes[node] == shape]
+            nx.draw_networkx_nodes(self.graph, pos, 
+                                 nodelist=node_list,
+                                 node_color=[colors[node] for node in node_list],
+                                 node_shape=shape,
+                                 node_size=100)
+        
+        plt.title("Space Farce Galaxy Map", color='white')
+        
+        if save_to_file:
+            plt.savefig(save_to_file)
         else:
             plt.show()
 
