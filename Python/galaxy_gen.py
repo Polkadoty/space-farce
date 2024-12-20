@@ -306,6 +306,67 @@ class Galaxy:
 
             self.log_system_generation(i)
 
+        self.ensure_connectivity()
+
+    def ensure_connectivity(self):
+        """Ensure all nodes are connected to at least one other node"""
+        # First check for completely isolated nodes
+        for sys_id, system in self.systems.items():
+            if len(system["connected_systems"]) == 0:
+                # Find a random target that isn't full
+                available_targets = [
+                    t for t in self.systems.keys() 
+                    if t != sys_id and 
+                    len(self.systems[t]["connected_systems"]) < self.systems[t]["num_warp_points"]
+                ]
+                
+                if available_targets:
+                    target = random.choice(available_targets)
+                    # Add bidirectional connection
+                    system["connected_systems"].add(target)
+                    self.systems[target]["connected_systems"].add(sys_id)
+                    self.graph.add_edge(sys_id, target)
+                else:
+                    # If no available targets, create connection to random system
+                    target = random.choice([t for t in self.systems.keys() if t != sys_id])
+                    system["connected_systems"].add(target)
+                    self.systems[target]["connected_systems"].add(sys_id)
+                    self.graph.add_edge(sys_id, target)
+        
+        # Then check for isolated components
+        components = list(nx.connected_components(self.graph))
+        while len(components) > 1:
+            # Connect each isolated component to the largest component
+            main_component = max(components, key=len)
+            for component in components:
+                if component != main_component:
+                    # Pick random nodes from each component
+                    node1 = random.choice(list(component))
+                    node2 = random.choice(list(main_component))
+                    
+                    # Add bidirectional connection
+                    self.systems[node1]["connected_systems"].add(node2)
+                    self.systems[node2]["connected_systems"].add(node1)
+                    self.graph.add_edge(node1, node2)
+            
+            # Recalculate components
+            components = list(nx.connected_components(self.graph))
+
+        # Final verification - ensure minimum connections
+        MIN_CONNECTIONS = 1
+        for sys_id, system in self.systems.items():
+            while len(system["connected_systems"]) < MIN_CONNECTIONS:
+                available_targets = [
+                    t for t in self.systems.keys() 
+                    if t != sys_id and 
+                    sys_id not in self.systems[t]["connected_systems"]
+                ]
+                if available_targets:
+                    target = random.choice(available_targets)
+                    system["connected_systems"].add(target)
+                    self.systems[target]["connected_systems"].add(sys_id)
+                    self.graph.add_edge(sys_id, target)
+
     def get_node_colors(self):
         colors = []
         for i in range(self.num_systems):

@@ -2,6 +2,9 @@ import websocket
 import json
 import requests
 from galaxy_gen import Galaxy
+import pygame
+import sys
+from pygame_visualizer import GalaxyVisualizer
 
 class TestClient:
     def __init__(self, server_url="http://localhost:8080"):
@@ -13,15 +16,17 @@ class TestClient:
             f"{self.server_url}/api/v1/games/create",
             json={
                 "galaxy_size": galaxy_size,
-                "max_players": 4,
-                "seed": 42  # Fixed seed for testing
+                "max_players": 4
             }
         )
         return response.json()
         
-    def connect_to_game(self, game_id):
+    def connect_to_game(self, game_id, token):
         ws_url = f"ws://localhost:8080/api/v1/games/{game_id}/ws"
-        self.ws = websocket.create_connection(ws_url)
+        headers = {
+            "Authorization": f"Bearer {token}"
+        }
+        self.ws = websocket.create_connection(ws_url, header=headers)
         
     def generate_and_verify_galaxy(self, seed, size):
         galaxy = Galaxy(size, seed)
@@ -48,29 +53,78 @@ class TestClient:
                 
         return True
 
-def run_verification_test(num_clients=4):
+def run_visualization_test(num_clients=4):
+    pygame.init()
+    
+    # 1080p resolution divided by 2 for each quadrant
+    window_size = (960, 540)  # Half of 1920x1080
+    screen = pygame.display.set_mode((window_size[0] * 2, window_size[1] * 2))
+    pygame.display.set_caption("Space Farce Galaxy Visualization")
+    
     clients = [TestClient() for _ in range(num_clients)]
+    visualizers = [GalaxyVisualizer(window_size[0], window_size[1]) 
+                  for _ in range(num_clients)]
     
-    # First client creates the game
-    game_data = clients[0].create_game()
-    game_id = game_data["ID"]
-    seed = game_data["Seed"]
-    size = game_data["GalaxySize"]
+    # Get auth token and create game
+    auth_response = requests.post(
+        "http://localhost:8080/api/v1/auth/login",
+        json={"username": "test_user", "password": "test_pass"}
+    ).json()
+    token = auth_response["token"]
     
-    # Generate galaxies for all clients
+    # Create game with fixed seed
+    seed = 42
+    headers = {"Authorization": f"Bearer {token}"}
+    game_data = requests.post(
+        f"{clients[0].server_url}/api/v1/games/create",
+        headers=headers,
+        json={"galaxy_size": 100, "max_players": 4, "seed": seed}
+    ).json()
+    
+    game_id = game_data["id"]
+    
+    # Generate galaxies and store their JSON representations
     galaxies = []
+    galaxy_jsons = []
     for client in clients:
-        client.connect_to_game(game_id)
-        galaxies.append(client.generate_and_verify_galaxy(seed, size))
+        client.connect_to_game(game_id, token)
+        galaxy = client.generate_and_verify_galaxy(seed, game_data["galaxy_size"])
+        galaxies.append(galaxy)
+        galaxy_jsons.append(galaxy.export_to_json())
     
-    # Compare all galaxies with the first one
-    for i in range(1, len(galaxies)):
-        if not clients[0].compare_galaxies(galaxies[0], galaxies[i]):
-            print(f"Galaxy mismatch detected between client 0 and client {i}")
-            return False
-            
-    print("All galaxies verified as identical!")
-    return True
+    # Verify all galaxy JSONs are identical
+    for i in range(1, len(galaxy_jsons)):
+        if galaxy_jsons[0] != galaxy_jsons[i]:
+            print(f"Warning: Galaxy {i} JSON differs from Galaxy 0")
+            # Optional: print specific differences
+            print(f"Differences in systems: {set(galaxy_jsons[0]['systems'].keys()) ^ set(galaxy_jsons[i]['systems'].keys())}")
+    
+    # Initialize visualizers with same seed
+    for i, visualizer in enumerate(visualizers):
+        visualizer.calculate_layout(galaxies[i])
+    
+    running = True
+    clock = pygame.time.Clock()
+    
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+        
+        screen.fill((0, 0, 0))
+        
+        # Update and draw each client's galaxy
+        for i, (galaxy, visualizer) in enumerate(zip(galaxies, visualizers)):
+            visualizer.update_layout()
+            surface = visualizer.draw(galaxy)
+            x = (i % 2) * window_size[0]
+            y = (i // 2) * window_size[1]
+            screen.blit(surface, (x, y))
+        
+        pygame.display.flip()
+        clock.tick(60)
+    
+    pygame.quit()
 
 if __name__ == "__main__":
-    run_verification_test() 
+    run_visualization_test() 

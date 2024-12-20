@@ -22,16 +22,16 @@ const (
 )
 
 type Game struct {
-	ID         string
-	Seed       int64
-	MaxPlayers int
-	State      GameState
-	Players    map[string]*Player
-	Created    time.Time
-	GalaxySize int
+	ID         string             `json:"id"`
+	Seed       int64              `json:"seed"`
+	MaxPlayers int                `json:"max_players"`
+	State      GameState          `json:"state"`
+	Players    map[string]*Player `json:"players"`
+	Created    time.Time          `json:"created"`
+	GalaxySize int                `json:"galaxy_size"`
 
-	connections map[string]*Connection
-	mu          sync.RWMutex
+	connections map[string]*Connection `json:"-"`
+	mu          sync.RWMutex           `json:"-"`
 }
 
 func NewGame(id string, seed int64, maxPlayers, galaxySize int) *Game {

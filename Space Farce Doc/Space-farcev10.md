@@ -244,22 +244,22 @@ Economy Points (EP)
 
 	
 
-| SHIP SYSTEMS | BUILD PTS/SPACES | SYMBOL | EFFECT |
-| :---- | :---- | :---- | :---- |
-| Beam Weapons | 1 | O | 6+ to hit,  9+ vs. small craft |
-| Missile Weapons | 1 | /\\ | 6+ to hit, 9+ vs. EP No vs. small craft |
-| Shields | 1 | S | 6+ stops beam |
-| Armor | 1 | A | 6+ stops missile |
-| Engines | 1 | E | 1 pt/engine,  Speed ratio |
-| Small Craft Bays | 1 | V | Holds 2 small craft |
-| Close Defense System | 1 | D | 6+ vs. small craft,  10 vs. missile |
-| Cargo | 1 | C | holds 10 MP, 1 BP, 1 PCF, or 1/10th EP |
-| Command Center | 1 | CMD | \+1 initiative |
-| Survey | 1 | \* | allows survey of system |
-| ECM | 1 | ? | \-2 to hit ship |
-| Shipyard | 3 | Sy | build/repair 3 spaces ship/month |
-| PCF | 1 | PCF | 6+ to hit, ride in cargo or Aslt Shtl |
-| Small Craft:  Fighter, Bomber, Recon, Shuttle, Aslt Shtl | ½ | F, B, R, Sh, As | 2 per bay |
+| SHIP SYSTEMS                                             | BUILD PTS/SPACES | SYMBOL          | EFFECT                                  |
+| :------------------------------------------------------- | :--------------- | :-------------- | :-------------------------------------- |
+| Beam Weapons                                             | 1                | O               | 6+ to hit,  9+ vs. small craft          |
+| Missile Weapons                                          | 1                | /\\             | 6+ to hit, 9+ vs. EP No vs. small craft |
+| Shields                                                  | 1                | S               | 6+ stops beam                           |
+| Armor                                                    | 1                | A               | 6+ stops missile                        |
+| Engines                                                  | 1                | E               | 1 pt/engine,  Speed ratio               |
+| Small Craft Bays                                         | 1                | V               | Holds 2 small craft                     |
+| Close Defense System                                     | 1                | D               | 6+ vs. small craft,  10 vs. missile     |
+| Cargo                                                    | 1                | C               | holds 10 MP, 1 BP, 1 PCF, or 1/10th EP  |
+| Command Center                                           | 1                | CMD             | \+1 initiative                          |
+| Survey                                                   | 1                | \*              | allows survey of system                 |
+| ECM                                                      | 1                | ?               | \-2 to hit ship                         |
+| Shipyard                                                 | 3                | Sy              | build/repair 3 spaces ship/month        |
+| PCF                                                      | 1                | PCF             | 6+ to hit, ride in cargo or Aslt Shtl   |
+| Small Craft:  Fighter, Bomber, Recon, Shuttle, Aslt Shtl | ½                | F, B, R, Sh, As | 2 per bay                               |
 
 1. ### Sample Ships
 
