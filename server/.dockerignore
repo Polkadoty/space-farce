@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+docs/
+*.md
+Space Farce Doc/
+Python/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python 

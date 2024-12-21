@@ -1,0 +1,6280 @@
+{
+  "metadata": {
+    "num_systems": 100,
+    "seed": 42,
+    "version": "1.0.0"
+  },
+  "systems": {
+    "0": {
+      "id": 0,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          2
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "1": {
+      "id": 1,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          2
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 62
+    },
+    "2": {
+      "id": 2,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          0,
+          1,
+          65
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 48
+    },
+    "3": {
+      "id": 3,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 64
+    },
+    "4": {
+      "id": 4,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          3,
+          5
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "5": {
+      "id": 5,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          3,
+          4,
+          76,
+          47
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 26
+    },
+    "6": {
+      "id": 6,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Red"
+        },
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          3,
+          87
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 5
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 10
+    },
+    "7": {
+      "id": 7,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          8,
+          3
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "8": {
+      "id": 8,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          7
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "9": {
+      "id": 9,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          10,
+          11
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 48
+    },
+    "10": {
+      "id": 10,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          9,
+          11
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "11": {
+      "id": 11,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          9,
+          10,
+          12
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 26
+    },
+    "12": {
+      "id": 12,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          59,
+          11
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 42
+    },
+    "13": {
+      "id": 13,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          74,
+          14
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 46
+    },
+    "14": {
+      "id": 14,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          17,
+          19,
+          13,
+          15
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "15": {
+      "id": 15,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          16,
+          17,
+          14
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 1,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 58
+    },
+    "16": {
+      "id": 16,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          30,
+          15
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 60
+    },
+    "17": {
+      "id": 17,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Red"
+        },
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          19,
+          20,
+          14,
+          15
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 2
+    },
+    "18": {
+      "id": 18,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          91,
+          71
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 30
+    },
+    "19": {
+      "id": 19,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Blue"
+        },
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          17,
+          14
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 8
+    },
+    "20": {
+      "id": 20,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Red"
+        },
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          17,
+          21
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 0
+    },
+    "21": {
+      "id": 21,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          20
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "22": {
+      "id": 22,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Red"
+        },
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          23
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 8
+    },
+    "23": {
+      "id": 23,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          24,
+          26,
+          28,
+          22
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "24": {
+      "id": 24,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          25,
+          23
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 46
+    },
+    "25": {
+      "id": 25,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          24
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "26": {
+      "id": 26,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          32,
+          31,
+          29,
+          23
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 22
+    },
+    "27": {
+      "id": 27,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          69
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 24
+    },
+    "28": {
+      "id": 28,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          23
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 7,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 94
+    },
+    "29": {
+      "id": 29,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          26,
+          31
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 30
+    },
+    "30": {
+      "id": 30,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          16
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 28
+    },
+    "31": {
+      "id": 31,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "White"
+        },
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          33,
+          26,
+          29
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 8
+    },
+    "32": {
+      "id": 32,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Blue"
+        },
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          26
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 2
+    },
+    "33": {
+      "id": 33,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          34,
+          35,
+          31
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 72
+    },
+    "34": {
+      "id": 34,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          33,
+          35
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 44
+    },
+    "35": {
+      "id": 35,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          33,
+          34,
+          36,
+          37,
+          45
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "36": {
+      "id": 36,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          40,
+          41,
+          35,
+          38
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 7,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 48
+    },
+    "37": {
+      "id": 37,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          35
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "38": {
+      "id": 38,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 6,
+        "connections": [
+          36,
+          39,
+          40,
+          42,
+          43,
+          44
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "39": {
+      "id": 39,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          70,
+          38
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "40": {
+      "id": 40,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 6,
+        "connections": [
+          36,
+          38,
+          42,
+          44,
+          46,
+          48
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "41": {
+      "id": 41,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          36
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 38
+    },
+    "42": {
+      "id": 42,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          40,
+          43,
+          44,
+          38
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "43": {
+      "id": 43,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Orange"
+        },
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          42,
+          38
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 2
+    },
+    "44": {
+      "id": 44,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          40,
+          42,
+          38
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 78
+    },
+    "45": {
+      "id": 45,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          35
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 56
+    },
+    "46": {
+      "id": 46,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          40
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 22
+    },
+    "47": {
+      "id": 47,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          5
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 26
+    },
+    "48": {
+      "id": 48,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          40,
+          49,
+          50,
+          51
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 34
+    },
+    "49": {
+      "id": 49,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Red"
+        },
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          48,
+          50,
+          51,
+          52
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 6,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 3
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 6
+    },
+    "50": {
+      "id": 50,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          48,
+          49
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "51": {
+      "id": 51,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          48,
+          49
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 44
+    },
+    "52": {
+      "id": 52,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          49
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 26
+    },
+    "53": {
+      "id": 53,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          54,
+          55
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "54": {
+      "id": 54,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Orange"
+        },
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          56,
+          61,
+          53,
+          55
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 4
+    },
+    "55": {
+      "id": 55,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          53,
+          54
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 36
+    },
+    "56": {
+      "id": 56,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          54
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "57": {
+      "id": 57,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          58,
+          59,
+          60,
+          62
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 46
+    },
+    "58": {
+      "id": 58,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Red"
+        },
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          57,
+          59,
+          60,
+          62
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 0
+    },
+    "59": {
+      "id": 59,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          12,
+          57,
+          58,
+          61,
+          62
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 30
+    },
+    "60": {
+      "id": 60,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          57,
+          58
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 56
+    },
+    "61": {
+      "id": 61,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          59,
+          54
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "62": {
+      "id": 62,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          57,
+          58,
+          59,
+          63
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "63": {
+      "id": 63,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 5,
+        "connections": [
+          64,
+          65,
+          66,
+          67,
+          62
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 46
+    },
+    "64": {
+      "id": 64,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Red"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          63
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 44
+    },
+    "65": {
+      "id": 65,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          2,
+          63
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "66": {
+      "id": 66,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          67,
+          68,
+          69,
+          63
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "67": {
+      "id": 67,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          66,
+          63
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 44
+    },
+    "68": {
+      "id": 68,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          66
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 48
+    },
+    "69": {
+      "id": 69,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Orange"
+        },
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          66,
+          70,
+          71,
+          72,
+          27
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 5
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 32
+    },
+    "70": {
+      "id": 70,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "White"
+        },
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          69,
+          39,
+          72,
+          71,
+          74
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 4
+    },
+    "71": {
+      "id": 71,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "White"
+        },
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          18,
+          69,
+          70
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 4
+    },
+    "72": {
+      "id": 72,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          73,
+          75,
+          69,
+          70
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "73": {
+      "id": 73,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          72
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 60
+    },
+    "74": {
+      "id": 74,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "White"
+        },
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          13,
+          70
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 6,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 3
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 6
+    },
+    "75": {
+      "id": 75,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          72,
+          76,
+          77,
+          78
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "76": {
+      "id": 76,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          5,
+          75,
+          77
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 52
+    },
+    "77": {
+      "id": 77,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          75,
+          76,
+          78
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 78
+    },
+    "78": {
+      "id": 78,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 6,
+        "connections": [
+          75,
+          77,
+          79,
+          80,
+          81,
+          82
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "79": {
+      "id": 79,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          80,
+          83,
+          78
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "80": {
+      "id": 80,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          78,
+          79
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 26
+    },
+    "81": {
+      "id": 81,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          78
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 6,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 3
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 76
+    },
+    "82": {
+      "id": 82,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          78
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "83": {
+      "id": 83,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          84,
+          85,
+          79
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "84": {
+      "id": 84,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        },
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          83
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 18
+    },
+    "85": {
+      "id": 85,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          83
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "86": {
+      "id": 86,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          88,
+          90,
+          91,
+          92
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "87": {
+      "id": 87,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 0,
+        "connections": [
+          6
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 3,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 7,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 96
+    },
+    "88": {
+      "id": 88,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          89,
+          90,
+          92,
+          86
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 4
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 44
+    },
+    "89": {
+      "id": 89,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          88
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 44
+    },
+    "90": {
+      "id": 90,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 5,
+        "connections": [
+          86,
+          88,
+          91,
+          92,
+          93
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "91": {
+      "id": 91,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          90,
+          18,
+          86
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 1,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 2
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 12,
+          "features": {
+            "moons": 3,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 68
+    },
+    "92": {
+      "id": 92,
+      "system_type": "Starless Nexus",
+      "stars": [],
+      "warp_points": {
+        "count": 6,
+        "connections": [
+          86,
+          88,
+          90,
+          93,
+          94,
+          95
+        ]
+      },
+      "planets": [],
+      "total_ep": 0
+    },
+    "93": {
+      "id": 93,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          90,
+          92
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 26
+    },
+    "94": {
+      "id": 94,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 2,
+        "connections": [
+          92,
+          95
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 2,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "A",
+          "position": 4,
+          "economic_points": 2,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 1
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 5,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 7,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 56
+    },
+    "95": {
+      "id": 95,
+      "system_type": "Binary Star",
+      "stars": [
+        {
+          "type": "Blue"
+        },
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 4,
+        "connections": [
+          96,
+          97,
+          92,
+          94
+        ]
+      },
+      "planets": [
+        {
+          "type": "A",
+          "position": 0,
+          "economic_points": 0,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 0
+    },
+    "96": {
+      "id": 96,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "White"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          95
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 50
+    },
+    "97": {
+      "id": 97,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Blue"
+        }
+      ],
+      "warp_points": {
+        "count": 3,
+        "connections": [
+          98,
+          99,
+          95
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 4,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 38
+    },
+    "98": {
+      "id": 98,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Yellow"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          97
+        ]
+      },
+      "planets": [
+        {
+          "type": "H",
+          "position": 0,
+          "economic_points": 40,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "R",
+          "position": 1,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 2,
+          "economic_points": 8,
+          "features": {
+            "moons": 2,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 3,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 4,
+          "economic_points": 16,
+          "features": {
+            "moons": 4,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 5,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 6,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 7,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 102
+    },
+    "99": {
+      "id": 99,
+      "system_type": "Single Star",
+      "stars": [
+        {
+          "type": "Orange"
+        }
+      ],
+      "warp_points": {
+        "count": 1,
+        "connections": [
+          97
+        ]
+      },
+      "planets": [
+        {
+          "type": "R",
+          "position": 0,
+          "economic_points": 10,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "G",
+          "position": 1,
+          "economic_points": 4,
+          "features": {
+            "moons": 1,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 2,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        },
+        {
+          "type": "I",
+          "position": 3,
+          "economic_points": 4,
+          "features": {
+            "moons": 0,
+            "asteroid_sites": 0
+          },
+          "structures": [],
+          "fleets": [],
+          "colonies": []
+        }
+      ],
+      "total_ep": 22
+    }
+  },
+  "connections": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      65
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      76
+    ],
+    [
+      5,
+      47
+    ],
+    [
+      6,
+      87
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      12,
+      59
+    ],
+    [
+      13,
+      74
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      16,
+      30
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      18,
+      91
+    ],
+    [
+      18,
+      71
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      26
+    ],
+    [
+      23,
+      28
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      32
+    ],
+    [
+      26,
+      31
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      27,
+      69
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      31,
+      33
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      40
+    ],
+    [
+      36,
+      41
+    ],
+    [
+      36,
+      38
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      38,
+      42
+    ],
+    [
+      38,
+      43
+    ],
+    [
+      38,
+      44
+    ],
+    [
+      39,
+      70
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      40,
+      44
+    ],
+    [
+      40,
+      46
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      42,
+      44
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      48,
+      50
+    ],
+    [
+      48,
+      51
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      49,
+      51
+    ],
+    [
+      49,
+      52
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      55
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      54,
+      61
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      57,
+      59
+    ],
+    [
+      57,
+      60
+    ],
+    [
+      57,
+      62
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      58,
+      60
+    ],
+    [
+      58,
+      62
+    ],
+    [
+      59,
+      61
+    ],
+    [
+      59,
+      62
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      63,
+      65
+    ],
+    [
+      63,
+      66
+    ],
+    [
+      63,
+      67
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      66,
+      68
+    ],
+    [
+      66,
+      69
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      69,
+      71
+    ],
+    [
+      69,
+      72
+    ],
+    [
+      70,
+      72
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      70,
+      74
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      72,
+      75
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      75,
+      77
+    ],
+    [
+      75,
+      78
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      78,
+      80
+    ],
+    [
+      78,
+      81
+    ],
+    [
+      78,
+      82
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      79,
+      83
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      83,
+      85
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      86,
+      90
+    ],
+    [
+      86,
+      91
+    ],
+    [
+      86,
+      92
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      88,
+      90
+    ],
+    [
+      88,
+      92
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      90,
+      92
+    ],
+    [
+      90,
+      93
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      92,
+      94
+    ],
+    [
+      92,
+      95
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      95,
+      97
+    ],
+    [
+      97,
+      98
+    ],
+    [
+      97,
+      99
+    ]
+  ]
+}

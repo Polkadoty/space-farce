@@ -4,6 +4,7 @@ import (
 	"github.com/Polkadoty/Space-Farce/internal/config"
 	"github.com/Polkadoty/Space-Farce/internal/game"
 	"github.com/Polkadoty/Space-Farce/internal/handlers"
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
@@ -20,11 +21,25 @@ func New(cfg *config.Config) (*Server, error) {
 		games:  game.NewManager(),
 	}
 
+	// Configure CORS middleware
+	corsConfig := cors.DefaultConfig()
+	corsConfig.AllowOrigins = []string{"http://localhost:5173", "http://localhost:3000"}
+	corsConfig.AllowMethods = []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
+	corsConfig.AllowHeaders = []string{"Origin", "Content-Type", "Authorization"}
+	corsConfig.AllowCredentials = true
+
+	s.router.Use(cors.New(corsConfig))
 	s.setupRoutes()
 	return s, nil
 }
 
 func (s *Server) setupRoutes() {
+	// Enable CORS for all routes
+	s.router.Use(cors.Default())
+
+	// Register the galaxy endpoint at the root level
+	s.router.GET("/api/v1/galaxy", handlers.GetGalaxy())
+
 	api := s.router.Group("/api/v1")
 
 	// Auth routes

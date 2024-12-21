@@ -309,40 +309,65 @@ class Galaxy:
         self.ensure_connectivity()
 
     def ensure_connectivity(self):
-        """Ensure all nodes are connected to at least one other node"""
+        """Ensure all nodes are connected to at least one other node, preferring Starless Nexuses"""
+        # First identify all Starless Nexus systems
+        nexus_systems = [
+            sys_id for sys_id, system in self.systems.items() 
+            if system["system_type"] == "Starless Nexus"
+        ]
+        
+        # If no nexus systems exist, create one
+        if not nexus_systems:
+            # Convert the most central system to a Starless Nexus
+            central_system = self.find_most_central_system()
+            self.systems[central_system]["system_type"] = "Starless Nexus"
+            self.systems[central_system]["star_types"] = [None]
+            self.systems[central_system]["planets"] = []
+            self.systems[central_system]["planet_ep"] = []
+            self.systems[central_system]["planet_moons"] = []
+            self.systems[central_system]["planet_sites"] = []
+            self.systems[central_system]["total_ep"] = 0
+            nexus_systems = [central_system]
+        
         # First check for completely isolated nodes
         for sys_id, system in self.systems.items():
             if len(system["connected_systems"]) == 0:
-                # Find a random target that isn't full
-                available_targets = [
-                    t for t in self.systems.keys() 
-                    if t != sys_id and 
-                    len(self.systems[t]["connected_systems"]) < self.systems[t]["num_warp_points"]
+                # Connect to nearest Starless Nexus that isn't full
+                available_nexus = [
+                    n for n in nexus_systems 
+                    if len(self.systems[n]["connected_systems"]) < self.systems[n]["num_warp_points"]
                 ]
                 
-                if available_targets:
-                    target = random.choice(available_targets)
+                if available_nexus:
+                    target = self.find_nearest_system(sys_id, available_nexus)
                     # Add bidirectional connection
                     system["connected_systems"].add(target)
                     self.systems[target]["connected_systems"].add(sys_id)
                     self.graph.add_edge(sys_id, target)
                 else:
-                    # If no available targets, create connection to random system
-                    target = random.choice([t for t in self.systems.keys() if t != sys_id])
+                    # If no available nexus, connect to any nexus and increase its capacity
+                    target = random.choice(nexus_systems)
                     system["connected_systems"].add(target)
                     self.systems[target]["connected_systems"].add(sys_id)
                     self.graph.add_edge(sys_id, target)
+                    self.systems[target]["num_warp_points"] += 1
         
         # Then check for isolated components
         components = list(nx.connected_components(self.graph))
         while len(components) > 1:
-            # Connect each isolated component to the largest component
+            # Connect each isolated component to nearest nexus
             main_component = max(components, key=len)
             for component in components:
                 if component != main_component:
-                    # Pick random nodes from each component
+                    # Find a nexus in the main component
+                    main_nexuses = [n for n in nexus_systems if n in main_component]
+                    if not main_nexuses:
+                        continue
+                    
+                    # Pick random node from isolated component
                     node1 = random.choice(list(component))
-                    node2 = random.choice(list(main_component))
+                    # Connect to nearest nexus
+                    node2 = self.find_nearest_system(node1, main_nexuses)
                     
                     # Add bidirectional connection
                     self.systems[node1]["connected_systems"].add(node2)
@@ -352,20 +377,37 @@ class Galaxy:
             # Recalculate components
             components = list(nx.connected_components(self.graph))
 
-        # Final verification - ensure minimum connections
-        MIN_CONNECTIONS = 1
-        for sys_id, system in self.systems.items():
-            while len(system["connected_systems"]) < MIN_CONNECTIONS:
-                available_targets = [
-                    t for t in self.systems.keys() 
-                    if t != sys_id and 
-                    sys_id not in self.systems[t]["connected_systems"]
-                ]
-                if available_targets:
-                    target = random.choice(available_targets)
-                    system["connected_systems"].add(target)
-                    self.systems[target]["connected_systems"].add(sys_id)
-                    self.graph.add_edge(sys_id, target)
+    def find_most_central_system(self):
+        """Find the system closest to the center of all systems"""
+        positions = nx.spring_layout(self.graph)
+        center = np.mean([pos for pos in positions.values()], axis=0)
+        
+        min_dist = float('inf')
+        central_system = 0
+        
+        for sys_id, pos in positions.items():
+            dist = np.linalg.norm(pos - center)
+            if dist < min_dist:
+                min_dist = dist
+                central_system = sys_id
+        
+        return central_system
+
+    def find_nearest_system(self, source_id, target_ids):
+        """Find the nearest system from the list of target IDs to the source system"""
+        positions = nx.spring_layout(self.graph)
+        source_pos = positions[source_id]
+        
+        min_dist = float('inf')
+        nearest_system = target_ids[0]
+        
+        for target_id in target_ids:
+            dist = np.linalg.norm(positions[target_id] - source_pos)
+            if dist < min_dist:
+                min_dist = dist
+                nearest_system = target_id
+        
+        return nearest_system
 
     def get_node_colors(self):
         colors = []
